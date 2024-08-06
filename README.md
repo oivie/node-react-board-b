@@ -23,16 +23,15 @@ git clone https://github.com/oivie/node-react-board-b.git
 cd node-react-board-b/backend
 Install dependencies:
 bash
-Copy code
 npm install
+
 Create a .env file in the root directory with the following content:
 env
-Copy code
 MONGO_URI=<Your MongoDB connection string>
 JWT_SECRET=<Your JWT secret>
+
 Start the server:
 bash
-Copy code
 npm start
 The server will start on http://localhost:5000.
 
